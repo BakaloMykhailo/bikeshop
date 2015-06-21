@@ -365,6 +365,12 @@ a:focus {
 .bk-form-name .form-group {
   margin-bottom: 21px;
 }
+.form-group {
+  margin-bottom: 18px;
+}
+.form-group:last-child {
+  margin-bottom: 22px;
+}
 .form-control {
   height: auto;
   border-radius: 10px;
