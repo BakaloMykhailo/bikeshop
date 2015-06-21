@@ -247,6 +247,26 @@ a:focus {
   right: 0;
   margin: auto;
 }
+.category-description:hover :before {
+  opacity: 1;
+  transition: opacity .5s, transform .5s;
+  transform: rotate(39.7deg) scale(1.5);
+}
+.category-description:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  width: 274.5px;
+  height: 330px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1.5);
+  background-color: rgba(252, 255, 25, 0.3);
+  transition: opacity .5s, transform .5s;
+}
 .category-description h4 {
   font-size: 15px;
   font-weight: bold;
@@ -269,6 +289,10 @@ a:focus {
   border: 3px solid #fff;
   padding: 13px 22px 10px 22px;
   z-index: 999;
+  opacity: 0;
+}
+.bk-category-item:hover .btn-category {
+  opacity: 1;
 }
 .bk-popular {
   text-align: center;
