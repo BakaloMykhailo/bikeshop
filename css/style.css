@@ -112,6 +112,9 @@ a:focus {
   background-color: #fcff19;
   border-radius: 10px;
 }
+.container-fluid {
+  padding: 0;
+}
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
@@ -383,4 +386,37 @@ a:focus {
   background-color: #b7b7b7;
   color: #fff;
   outline: none;
+}
+.bk-footer {
+  background-color: #fcff19;
+  min-height: 70px;
+}
+.bk-footer .navbar-brand {
+  padding: 18px 0 17px;
+  height: 70px;
+}
+.bk-footer .navbar-nav {
+  position: relative;
+  float: right;
+  right: -13px;
+  margin-top: 18px;
+}
+.bk-footer .navbar-nav li {
+  margin-left: 10px;
+}
+.bk-footer .navbar-nav li a {
+  padding: 13px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000;
+}
+.bk-footer .navbar-nav li a:hover,
+.bk-footer .navbar-nav li a:active,
+.bk-footer .navbar-nav li a:focus {
+  color: #fcff19;
+  background-color: #000;
+  border-radius: 10px;
+}
+.bk-footer .navbar {
+  margin: 0;
 }

@@ -110,6 +110,9 @@ a{
 				}
 		}
 }
+.container-fluid{
+	padding: 0;
+}
 .navbar-default .navbar-nav>.open>a,
 .navbar-default .navbar-nav>.open>a:hover,
 .navbar-default .navbar-nav>.open>a:focus{
@@ -395,3 +398,38 @@ a{
 	color: #fff;
 	outline: none;
 }
+//************ FOOTER ************
+.bk-footer{
+	background-color: @main-color;
+	min-height: 70px;
+		.navbar-brand{
+			padding: 18px 0 17px;
+			height: 70px;
+		}
+		.navbar-nav{
+			position: relative;
+			float: right;
+			right: -13px;
+			margin-top: 18px;
+				li{
+					margin-left: 10px;
+						a{
+							padding: 13px;
+							text-transform: uppercase;
+							font-weight: bold;
+							color: #000;
+								&:hover,
+								&:active,
+								&:focus{
+									color: @main-color;
+									background-color: #000;
+									border-radius: 10px;
+								}
+						}
+				}
+		}
+		.navbar{
+			margin:0;
+		}
+}
+

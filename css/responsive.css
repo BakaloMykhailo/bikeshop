@@ -82,6 +82,31 @@
 			line-height: 1;
 		}
 }
+@media(max-width: 581px){
+	.bk-footer .navbar-nav li{
+		display: block;
+		text-align: center;
+	}
+	.bk-footer .navbar-nav li a{
+				padding: 8px;
+	}
+	.bk-footer .navbar-nav{
+		float: none;
+		right: 0;
+		padding: 8px;
+		margin-bottom: 50px;
+	}
+	.navbar-brand{
+		position: absolute;
+		float: none;
+		right: 0;
+		left: 0;
+		bottom: 0;
+	}
+	.navbar-brand img{
+		margin: 0 auto;
+	}
+}
 @media(max-width: 541px){
 		.navbar-right{
 			margin-right: 10%;
@@ -123,6 +148,10 @@
 			padding: 18px 20px 16px 20px;
 		}
 
+@media(max-width: 1221px){
+
+}
+
 }
 @media(max-width: 965px){
 		.bk-bike-desc h4,
@@ -135,23 +164,22 @@
 			background-position: 130% 50%;
 		}
 }
-@media(max-width: 817px){
-
-}
 
 @media(max-width: 961px){
 
 }
 
-@media(max-width: 1221px){
+@media(max-width: 817px){
 
 }
 
 @media(max-width: 481px){
+	.bk-contact-us .categories-header,
 	.bk-popular .categories-header,
 	.categories-header{
 		margin-bottom: 20px;
 	}
+	.bk-contact-us,
 	.categories,
 	.bk-popular{
 		padding: 20px 0;
