@@ -28,7 +28,9 @@
 }
 
 @media (min-width: 960px){
-
+	.bk-category-item{
+		max-width: 346px;
+	}
 }
 
 @media (min-width: 1096px){
