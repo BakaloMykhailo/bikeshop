@@ -69,10 +69,12 @@ a:focus {
 }
 .bk-header .navbar-brand {
   padding: 0;
+  display: inline-block;
 }
 .bk-header .navbar-brand img {
   position: absolute;
   top: -10px;
+  z-index: 999;
 }
 .bk-header .collapse li {
   margin-left: 10px;
