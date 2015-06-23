@@ -104,6 +104,10 @@
 		left: 0;
 		bottom: 0;
 	}
+	.brand-2{
+		position: relative;
+		bottom: 40px;
+	}
 	.navbar-brand img{
 		margin: 0 auto;
 	}
