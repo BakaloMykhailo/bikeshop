@@ -71,7 +71,7 @@ a:focus {
   padding: 0;
 }
 .bk-header .navbar-brand img {
-  positison: absolute;
+  position: absolute;
   top: -10px;
   z-index: 999;
 }
