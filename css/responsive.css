@@ -99,12 +99,12 @@
 		margin-bottom: 50px;
 	}
 	.navbar-brand{
-		float: none;
 		right: 0;
 		left: 0;
 		bottom: 0;
 	}
 	.brand-2{
+		float: none;
 		position: relative;
 		bottom: 40px;
 	}
